@@ -1,0 +1,140 @@
+@import "./reset.css";
+ 
+body {
+    background-color: #F2F7FC;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.section {
+    padding: 53px 0 58px 0;
+}
+
+.section-product {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.container {
+    width: 1233px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.title-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+    
+    font-size: 34px;
+    padding-bottom: 48px;
+}
+
+.header-sc {
+    display: inline-block;
+    width: 132px;
+    height: 35px;
+    padding: 6px 10px 5px 20px;
+    background-color: #F2F7FC;
+}
+
+
+
+/* карточки */
+
+.card {
+    width: 263px;
+    height: 433px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEE;
+    border-radius: 10px;
+}
+
+.card-img {
+    padding-bottom: 20px;
+}
+ .header-card {
+    padding: 0px 22px 14px 20px;
+
+    font-size: 18px;
+    line-height: 26px;
+
+ }
+
+ .card-category {
+    display: inline-block;
+
+    padding: 0px 11px 27px 20px;
+
+    font-size: 14px;
+    
+    color: rgba(0, 0, 0, 0.5);
+ }
+  
+.category {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+ .card-price  {
+ 
+    padding-right: 175px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    font-size: 20px;
+    line-height: 24px;
+ }
+
+.section-button {
+    text-align: center;
+    margin-top: 16px;
+    padding-bottom: 20px;
+   
+}
+
+.button {
+    padding: 16px 85px 15px 86px;
+    border: 1px solid #BD0202;
+    border-radius: 5px;
+    color: #BD0202;
+   
+}
+
+.card-price2 {
+    padding: 0px 162px 16px 22px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.button2 {
+    border: 1px solid #E9ECEE;
+    padding: 16px 85px 15px 86px;
+    background: #E9ECEE;
+    border-radius: 5px;
+    color: #9AA2A9;
+}
+.card-price3 { 
+     font-size: 20px;
+    line-height: 24px;
+
+}
+
+.card-price-wrapper {
+  
+    padding: 10px 16px 22px;
+}
+.card-old-price { 
+    
+    padding:  10px 16px 22px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+.card-category1 {
+    padding: 0px 11px 52px 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
